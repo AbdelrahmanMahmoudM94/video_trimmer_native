@@ -178,7 +178,7 @@ class Trimmer {
       includeAudio: true,
     );
     onSave(trimmed);
-    await _videoTrimmer.clearCache();
+  //  await _videoTrimmer.clearCache();
   }
 
   /// For getting the video controller state, to know whether the
