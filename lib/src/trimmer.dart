@@ -180,8 +180,8 @@ class Trimmer {
     onSave(trimmed);
   //  await _videoTrimmer.clearCache();
   }
-  Future clearCacheFiles() {
-    _videoTrimmer.clearCache();
+  Future clearCacheFiles()async {
+   await _videoTrimmer.clearCache();
   }
 
   /// For getting the video controller state, to know whether the
